@@ -26,42 +26,37 @@ p {
 
 .cabecalho {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    
 }
 
 .cabecalho_logo {
-    padding: 10px;
-    
+    padding: 1.5rem;
+    margin-left: 6rem;
 }
 
 .cabecalho_menu {
-    padding: 10px;
-    
+    padding: 1.5rem;
+    margin-right: 6rem;
 }
 
 .cabecalho_menu-item {
     text-decoration: none;
     color: #FFFFFF;
-    margin-right: 2rem;
-    
+    justify-content: space-around;
+    padding: 1.5rem;
 }
 
 .secao_topo {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    
+    grid-template-columns: 1fr 1fr; 
+    margin: 12rem 6rem 9rem 6rem;
+    width: 100%;
 }
 
 .secao_topo_esquerda {
-    display: flex;
-    flex-direction: column;
-    padding-left: 5rem;
-    width: 80% ;
-    margin: 190px auto 140px auto;
+
 
 }
 
