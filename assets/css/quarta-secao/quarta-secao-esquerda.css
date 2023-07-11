@@ -1,0 +1,22 @@
+.quarta__secao-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.quarta__secao-esquerda--titulo {
+    margin-bottom: 1.5rem;
+}
+
+.quarta__secao-esquerda--paragrafo {
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+
+.quarta__secao-esquerda--botao {
+    padding: 1.5rem 2rem ;
+    border-radius: 16px;
+    background: var(--gradiente-azul);
+    font-weight: 700;
+
+}

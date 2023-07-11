@@ -1,6 +1,5 @@
 .terceira__secao-esquerda {
     position: relative;
-
 }
 
 /*Esses números negativos não são ideais*/
@@ -8,18 +7,9 @@
     position: absolute;
     top: -150px;
     right: 120px;
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 
 }
 
-.terceira__secao-esquerda--imagem-paypal:hover {
-    -webkit-filter: blur(0);
-	filter: blur(0);
-    transition: .3s ease-in-out;
-}
 
 .terceira__secao-esquerda--imagem-transaction {
     position: absolute;
@@ -34,7 +24,6 @@
 
 }
 
-
 .terceira__secao-esquerda--imagem-transaction:hover {
     -webkit-filter: blur(0);
 	filter: blur(0);
@@ -46,14 +35,5 @@
     position: absolute;
     bottom: -40px;
     right: 40px;
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
 
-.terceira__secao-esquerda--imagem-great:hover {
-    -webkit-filter: blur(0);
-	filter: blur(0);
-    transition: .3s ease-in-out;
-}
