@@ -1,0 +1,42 @@
+.quinta__secao-colunas {
+    display: flex;
+}
+
+.quinta__secao-coluna {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quinta__secao-coluna-grupo {
+    flex-direction: column;
+    padding: 3.75rem 2.5rem;
+    border-radius: 20px;
+    margin: 30px;
+
+}
+
+.quinta__secao-coluna-grupo:hover {
+    background: var(--gradiente-cinza);
+    border-radius: 2rem;
+    opacity: 100%;
+
+}
+
+.quinta__secao-colunas--img-aspas {
+    width: 48px;
+    margin-bottom: 40px ;
+}
+
+
+.quinta__secao-colunas--perfil {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quinta__secao-colunas--perfil-descricao {
+    display: flex;
+    flex-direction: column;
+
+}
