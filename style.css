@@ -79,6 +79,7 @@ p {
     
 }
 
+
 .secao_topo_esquerda-div {
     display: inline-block;
     position: relative;
@@ -177,7 +178,7 @@ p {
 .segunda_section_div-direita { 
     display: flex;
     flex-direction: column;
-    margin-left: 78px;
+    margin-left: 6rem;
     position: relative;
     
 }
@@ -208,4 +209,95 @@ p {
 
 .segunda_section_div-direita--colunas-paragrafo {
     line-height: 1.5rem;
+}
+
+/*TERCEIRA SEÇÃO*/
+
+.terceira_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10rem;
+    padding: 3rem 2rem 3rem 0;
+
+}
+
+.terceira_section_div-esquerda {
+    position: relative;
+
+}
+
+.terceira_section_div-esquerda-imagem-paypal {
+    position: absolute;
+    top: -150px;
+    right: 120px;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+.terceira_section_div-esquerda-imagem-paypal:hover {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+    transition: .3s ease-in-out;
+}
+
+.terceira_section_div-esquerda-imagem-transaction {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+
+.terceira_section_div-esquerda-imagem-transaction:hover {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+    transition: .3s ease-in-out;
+}
+
+
+.terceira_section_div-esquerda-imagem-great {
+    position: absolute;
+    bottom: -40px;
+    right: 40px;
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.terceira_section_div-esquerda-imagem-great:hover {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+    transition: .3s ease-in-out;
+}
+
+
+.terceira_section_div-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 7.25rem;
+
+}
+
+.terceira_section_div-direita-titulo {
+    margin-bottom: 1.5rem;
+}
+
+.terceira_section_div-direita-paragrafo {
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+
+.terceira_section_div-direita-apps {
+    margin-right: 2rem;
 }
