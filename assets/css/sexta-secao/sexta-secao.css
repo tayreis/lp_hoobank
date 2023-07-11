@@ -1,0 +1,17 @@
+.sexta__secao {
+    display: flex;
+    align-items: center;
+    padding: 72px 100px;
+    background: var(--gradiente-cinza);
+    border-radius: 2rem;
+    opacity: 100%;
+}
+
+.sexta__secao-esquerda {
+    margin-right: 200px;
+    background: purple;
+}
+
+.sexta__secao-direita {
+    background: blue;
+}

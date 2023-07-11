@@ -1,0 +1,15 @@
+.quinta__secao-topo {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.quinta__secao-topo--titulo {
+    padding: 0 2rem;
+
+}
+
+.quinta__secao-topo--paragrafo {
+    padding: 0 8rem;
+
+}
