@@ -5,154 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HooBank</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/imports.css">
 </head>
-<body>
+<body class="corpo">
     <header class="cabecalho">
-        <div class="cabecalho_logo">
-            <img src="/img/logo_pequena.png" alt="">
+        <div class="logo">
+            <img src="assets/img/logo_pequena.png" alt="">
         </div>
-        <nav class="cabecalho_menu">
-            <a class="cabecalho_menu-item" href="">Home</a>
-            <a class="cabecalho_menu-item" href="">About Us</a>
-            <a class="cabecalho_menu-item" href="">Features</a>
-            <a class="cabecalho_menu-item" href="">Solution</a>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link active" href="">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="">About Us</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Features</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Solution</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section class="secao_topo">
-            <div class="secao_topo_esquerda">
-                <p class="secao_topo_esquerda-paragrafo"><img src="img/desconto.svg" alt="">20% DISCOUNT FOR 1 MONTH ACCOUNT</p>
-                <div class="secao_topo_esquerda-div">
-                    <h1 class="secao_topo_esquerda-titulo" > The Next<br> <strong class="strong-titulo">Generation</strong> Payment&nbsp;Method.</h1>
-                    <img src="img/get-started.png" class="secao_topo_esquerda-imagem--getstarted" alt="">
-                    <img src="img/elipse-topo-esquerda.png" class="secao_topo_esquerda-imagem--elipse" alt="">
+        <section class="secao__topo">
+            <div class="secao__topo-esquerda">
+                <p class="secao__topo-esquerda--paragrafo"><img src="assets/img/desconto.svg" alt="">20% DISCOUNT FOR 1 MONTH ACCOUNT</p>
+                <div class="secao__topo-esquerda--titulo-e-imagens">
+                    <h1 class="secao__topo-esquerda--titulo" > The Next<br> <strong class="strong-titulo">Generation</strong> Payment&nbsp;Method.</h1>
+                    <img src="assets/img/get-started.png" class="secao__topo-esquerda--imagem-getstarted" alt="">
+                    <img src="assets/img/elipse-topo-esquerda.png" class="secao__topo-esquerda--imagem-elipse" alt="">
                 </div>
-                <p class="secao_topo_esquerda-paragrafo-texto">Our team of experts uses a methodology to identify<br> the credit cards most likely to fit your needs.<br>We examine annual percentage rates, annual fees.
+                <p class="secao__topo-esquerda--texto">Our team of experts uses a methodology to identify<br> the credit cards most likely to fit your needs.<br>We examine annual percentage rates, annual fees.
                 </p>
             </div>
             
-            <div class="secao_topo_direita">
+            <div class="secao__topo-direita">
                  <!-- <img class="secao_topo_direita-imagem" src="img/cartao_01.png" alt="">  -->
-                <img class="secao_topo_direita-imagem" src="img/cartoes_mao.png" alt="">
+                <img class="secao__topo-direita--imagem" src="assets/img/cartoes_mao.png" alt="">
             </div>
         </section>
 
-        <div class="user_active">
-            <h2>3800+</h2>
-            <p class="user_active-paragrafo">USER ACTIVE</p>
-            <img src="img/barra.png" alt="">
-            <h2>230+</h2>
-            <p class="user_active-paragrafo">TRUSTED BY COMPANY</p>
-            <img src="img/barra.png" alt="">
-            <h2>$230M+</h2>
-            <p class="user_active-paragrafo">TRANSACTION</p>
+        <div class="info__credibilidade">
+            <h2 class="titulo-secundario">3800+</h2>
+            <p class="info__credibilidade-paragrafo">USER ACTIVE</p>
+            <img src="assets/img/barra.png" alt="">
+            <h2 class="titulo-secundario">230+</h2>
+            <p class="info__credibilidade-paragrafo">TRUSTED BY COMPANY</p>
+            <img src="assets/img/barra.png" alt="">
+            <h2 class="titulo-secundario">$230M+</h2>
+            <p class="info__credibilidade-paragrafo">TRANSACTION</p>
         </div>
-        <section class="segunda_section">
-            <div class="segunda_section_div-esquerda">
-                <h2 class="segunda_section_div-esquerda-titulo">You do the business, we'll handle the money.</h2>
-                <p class="segunda_section_div-esquerda-paragrafo">With the right credit card, you can improve your financial life by<br> building credit, earning rewards and saving money. But with<br> hundreds of credit cards on the market.</p>
-                <button class="segunda_section_div-esquerda-botao">Get Started</button>
+        <section class="segunda__secao section">
+            <div class="segunda__secao-esquerda">
+                <h2 class="titulo-secundario" class="segunda__secao-esquerda--titulo">You do the business, we'll handle the money.</h2>
+                <p class="segunda__secao-esquerda--paragrafo">With the right credit card, you can improve your financial life by<br> building credit, earning rewards and saving money. But with<br> hundreds of credit cards on the market.</p>
+                <button class="segunda__secao-esquerda--botao">Get Started</button>
             </div>
-            <div class="segunda_section_div-direita">
-                <div class="segunda_section_div-direita--colunas">
-                    <img class="segunda_section_div-direita--colunas-imagem" src="img/estrela.png" alt="">
+            <div class="segunda__secao-direita">
+                <div class="segunda__secao-direita--colunas">
+                    <img class="segunda__secao-direita--colunas-imagem" src="assets/img/estrela.png" alt="">
                     <div>
-                        <p class="segunda_section_div-direita--colunas-titulo"><strong>Rewards</strong></p>
-                        <p class="segunda_section_div-direita--colunas-paragrafo">The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+                        <p class="segunda__secao-direita--colunas-titulo"><strong>Rewards</strong></p>
+                        <p class="segunda__secao-direita--colunas-paragrafo">The best credit cards offer some tantalizing combinations of promotions and prizes</p>
                     </div>
                     
                 </div>
-                <div class="segunda_section_div-direita--colunas">
-                    <img class="segunda_section_div-direita--colunas-imagem" src="img/escudo.png" alt="">
+                <div class="segunda__secao-direita--colunas">
+                    <img class="segunda__secao-direita--colunas-imagem" src="assets/img/escudo.png" alt="">
                     <div>
-                        <p class="segunda_section_div-direita--colunas-titulo"><strong>100% Secured</strong></p>
-                        <p class="segunda_section_div-direita--colunas-paragrafo">We take proactive steps make sure your information and transactions are secure.</p>
+                        <p class="segunda__secao-direita--colunas-titulo"><strong>100% Secured</strong></p>
+                        <p class="segunda__secao-direita--colunas-paragrafo">We take proactive steps make sure your information and transactions are secure.</p>
                     </div>
                     
                 </div>
-                <div class="segunda_section_div-direita--colunas">
-                    <img class="segunda_section_div-direita--colunas-imagem" src="img/compartilhar.png" alt="">
+                <div class="segunda__secao-direita--colunas">
+                    <img class="segunda__secao-direita--colunas-imagem" src="assets/img/compartilhar.png" alt="">
                     <div>
-                        <p class="segunda_section_div-direita--colunas-titulo"><strong>Balance Transfer</strong></p>
-                        <p class="segunda_section_div-direita--colunas-paragrafo">A balance transfer credit card can save you a lot of money in interest charges.</p>
+                        <p class="segunda__secao-direita--colunas-titulo"><strong>Balance Transfer</strong></p>
+                        <p class="segunda__secao-direita--colunas-paragrafo">A balance transfer credit card can save you a lot of money in interest charges.</p>
                     </div>
 
                 </div>
             </div>
            
         </section>
-        <section class="terceira_section">
-            <div class="terceira_section_div-esquerda">
-                <img class="terceira_section_div-esquerda-imagem-transaction" src="img/img_last-transaction.png" alt="">
-                <img class="terceira_section_div-esquerda-imagem-great" src="img/img_great.png" alt="">
-                <img class="terceira_section_div-esquerda-imagem-paypal" src="img/img_paypal.png" alt="">
+        <section class="terceira__secao section">
+            <div class="terceira__secao-esquerda">
+                <img class="terceira__secao-esquerda--imagem-transaction" src="assets/img/img_last-transaction.png" alt="">
+                <img class="terceira__secao-esquerda--imagem-great" src="assets/img/img_great.png" alt="">
+                <img class="terceira__secao-esquerda--imagem-paypal" src="assets/img/img_paypal.png" alt="">
             </div>
-            <div class="terceira_section_div-direita">
-                <h2 class="terceira_section_div-direita-titulo">Easily control your billing & invoicing.</h2>
-                <p class="terceira_section_div-direita-paragrafo">Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
+            <div class="terceira__secao-direita">
+                <h2 class="titulo-secundario" class="terceira__secao-direita-titulo">Easily control your billing & invoicing.</h2>
+                <p class="terceira__secao-direita-paragrafo">Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
                 <div>
-                    <img  class="terceira_section_div-direita-apps" src="img/app-store.svg" alt="">
-                    <img  class="terceira_section_div-direita-apps" src="img/google-play.svg" alt="">
+                    <img  class="terceira__secao-direita-apps" src="assets/img/app-store.svg" alt="">
+                    <img  class="terceira__secao-direita-apps" src="assets/img/google-play.svg" alt="">
                 </div>
                 
             </div>
         </section>
-        <section class="">
-            <div>
-                <h2>Find a better card deal in few easy steps.</h2>
-                <p>Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
-                <button>Get Started</button>
+        <section class="quarta__secao section">
+            <div class="quarta__secao-esquerda">
+                <h2 class="titulo-secundario" class="quarta__secao-esquerda--titulo">Find a better card deal in few easy steps.</h2>
+                <p class="segunda_section_div-esquerda-paragrafo">Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
+                <button class="quarta__secao-esquerda--botao">Get Started</button>
             </div>
             <div>
-                <img src="img/card_scan-credit.png" alt="">
-                <img src="img/card_online-analysis.png" alt="">
-                <img src="img/card_pay-method.png" alt="">
-                <img src="img/card_circle.png" alt="">
+                <img src="assets/img/card_scan-credit.png" alt="">
+                <img src="assets/img/card_online-analysis.png" alt="">
+                <img src="assets/img/card_pay-method.png" alt="">
+                <img src="assets/img/card_circle.png" alt="">
             </div>
         </section>
-        <section class="">
+        <section class="quarta__section section">
             <div>
-                <h2>What people are saying about us</h2>
+                <h2 class="titulo-secundario">What people are saying about us</h2>
                 <p>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
             </div>
             <div>
-                <img src="img/“.svg" alt="">
+                <img src="assets/img/“.svg" alt="">
                 <p>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
-                <img src="img/selfie.png" alt="">
+                <img src="assets/img/selfie.png" alt="">
                 <p>Herman Jensen</p>
                 <p>Founder & Leader</p>
             </div>
             <div>
-                <img src="img/“.svg" alt="">
+                <img src="assets/img/“.svg" alt="">
                 <p>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
-                <img src="img/selfie.png" alt="">
+                <img src="assets/img/selfie.png" alt="">
                 <p>Herman Jensen</p>
                 <p>Founder & Leader</p>
             </div>
             <div>
-                <img src="img/“.svg" alt="">
+                <img src="assets/img/“.svg" alt="">
                 <p>Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.</p>
-                <img src="img/selfie.png" alt="">
+                <img src="assets/img/selfie.png" alt="">
                 <p>Herman Jensen</p>
                 <p>Founder & Leader</p>
             </div>
         </section>
-        <section class="">
-            <img src="img/airbnb_coinbase.png" alt="">
-        </section>
-        <section>
+        <div>
+            <img src="assets/img/airbnb_coinbase.png" alt="">
+        </div>
+        <section class="quinta__section section">
             <div>
-                <h2>Let's try our service now!</h2>
+                <h2 class="titulo-secundario">Let's try our service now!</h2>
                 <p>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
             </div>
             <div>
                 <button>Get Started</button>
             </div>
         </section>
-        <section>
+        <section class="section__final">
             <div>
-                <img src="img/logo_grande.svg" alt="">
+                <img src="assets/img/logo_grande.svg" alt="">
                 <p>A new way to make the payments easy, reliable and secure.</p>
             </div>
             <div>

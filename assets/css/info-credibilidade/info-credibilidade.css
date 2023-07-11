@@ -1,0 +1,14 @@
+.info__credibilidade {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 11.25rem auto;
+    align-items: center;
+    
+}
+
+.info__credibilidade-paragrafo {
+    background-image: var(--gradiente-azul);
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

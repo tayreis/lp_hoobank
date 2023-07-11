@@ -1,0 +1,22 @@
+.segunda__secao-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.segunda__secao-esquerda--titulo {
+    margin-bottom: 1.5rem;
+}
+
+.segunda__secao-esquerda--paragrafo {
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+
+.segunda__secao-esquerda--botao {
+    padding: 1.5rem 2rem ;
+    border-radius: 16px;
+    background: var(--gradiente-azul);
+    font-weight: 700;
+
+}

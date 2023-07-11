@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import "/assets/css/geral.css";
+@import "/assets/css/cabecalho.css";
+@import "/assets/css/logo.css";
+@import "/assets/css/menu/menu-lista.css";
+@import "/assets/css/menu/menu-item.css";
+@import "/assets/css/menu/menu-link.css";
+@import "/assets/css/secao-principal/secao-topo.css";
+@import "/assets/css/secao-principal/secao-principal-esquerda.css";
+@import "/assets/css/secao-principal/secao-principal-direita.css";
+@import "/assets/css/main-secao.css";
+@import "/assets/css/info-credibilidade/info-credibilidade.css";
+@import "/assets/css/segunda-secao/segunda-secao-esquerda.css";
+@import "/assets/css/segunda-secao/segunda-secao-direita.css";
+@import "/assets/css/terceira-secao/terceira-secao-esquerda.css";
+@import "/assets/css/terceira-secao/terceira-secao-direita.css";
