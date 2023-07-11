@@ -1,0 +1,37 @@
+/*posicionamento em pixels não é definitivo, somente para melhor visualização da página*/
+
+.quarta__secao-direita {
+    position: relative;
+}
+
+.quarta__secao-direita--imagem-circle {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.quarta__secao-direita--imagem-scan {
+    position: absolute;
+    left: 60px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+
+.quarta__secao-direita--imagem-analysis {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.quarta__secao-direita--imagem-paymethod {
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
