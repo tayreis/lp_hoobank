@@ -1,0 +1,55 @@
+.secao__topo-esquerda {
+    margin: 12rem 0 8rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.secao__topo-esquerda--paragrafo {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    background: #272727;
+    border-radius: 16px;
+    padding: 0.25rem;
+    
+}
+
+
+.secao__topo-esquerda--titulo-e-imagens {
+    display: inline-block;
+    position: relative;
+}
+
+.secao__topo-esquerda--titulo {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    line-height: 6.25rem;
+}
+
+.strong-titulo {
+    background-image: var(--gradiente-azul);
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.secao__topo-esquerda--imagem-getstarted {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+/*Esses números negativos não são ideais*/
+.secao__topo-esquerda--imagem-elipse {
+    position: absolute;
+    left: -150px;
+    top: -200px;
+}
+
+
+.secao__topo-esquerda--texto {
+    line-height: 2rem;
+}

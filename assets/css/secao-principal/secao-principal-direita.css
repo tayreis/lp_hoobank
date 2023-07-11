@@ -1,0 +1,9 @@
+.secao__topo-direita {
+    width: 100%;
+}
+
+.secao__topo-direita--imagem {
+    width: 100%;
+    display: block;
+    position: relative;
+}

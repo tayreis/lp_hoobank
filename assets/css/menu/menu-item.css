@@ -1,0 +1,6 @@
+.menu__item {
+    text-decoration: none;
+    color: #FFFFFF;
+    justify-content: space-around;
+    padding: 1.25rem;
+}
