@@ -1,17 +1,32 @@
 .sexta__secao {
     display: flex;
     align-items: center;
-    padding: 72px 100px;
+    justify-content: space-around;
+    padding: 3rem 5rem;
     background: var(--gradiente-cinza);
     border-radius: 2rem;
     opacity: 100%;
+
 }
 
 .sexta__secao-esquerda {
-    margin-right: 200px;
-    background: purple;
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 12.5rem;
+
 }
 
+
 .sexta__secao-direita {
-    background: blue;
+    text-align: center;
+
+
+}
+
+.sexta__secao-direita--botao {
+    padding: 1.5rem 2rem ;
+    border-radius: 16px;
+    background: var(--gradiente-azul);
+    font-weight: 700;
 }
