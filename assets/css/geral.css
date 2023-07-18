@@ -9,12 +9,14 @@
     font-family: 'Poppins', sans-serif;
     margin-left: 8.5rem;
     margin-right: 8.5rem;
+    height: 100vh;
+
 }
 
 .titulo-secundario {
     font-size: 3rem;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 5rem;
 }
 
 p {

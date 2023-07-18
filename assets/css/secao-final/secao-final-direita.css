@@ -1,0 +1,17 @@
+.secao__final-direita {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.secao__final-direita--links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.secao__final-direita--links a {
+    text-decoration: none;
+    color: white;
+}
